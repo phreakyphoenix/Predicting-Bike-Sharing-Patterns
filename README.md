@@ -39,7 +39,7 @@ rides.head()
 
 
 <div>
-<style scoped>
+
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -51,7 +51,7 @@ rides.head()
     .dataframe thead th {
         text-align: right;
     }
-</style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -222,13 +222,6 @@ data.head()
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -236,7 +229,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
-</style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -536,15 +529,8 @@ unittest.TextTestRunner().run(suite)
 ```
 
     .....
-    ----------------------------------------------------------------------
     Ran 5 tests in 0.015s
-    
     OK
-
-
-
-
-
     <unittest.runner.TextTestResult run=5 errors=0 failures=0>
 
 
