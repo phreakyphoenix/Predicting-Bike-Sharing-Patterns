@@ -8,8 +8,6 @@ License: GPLv3
 In this project, you'll build your first neural network and use it to predict daily bike rental ridership. We've provided some of the code, but left the implementation of the neural network up to you (for the most part). After you've submitted this project, feel free to explore the data and the model more.
 
 
-
-
 ```python
 %matplotlib inline
 %load_ext autoreload
@@ -566,16 +564,6 @@ for ii in range(iterations):
 ```
 
     Progress: 0.1% ... Training loss: 0.889 ... Validation loss: 1.335
-
-    /opt/conda/lib/python3.6/site-packages/ipykernel_launcher.py:17: DeprecationWarning: 
-    .ix is deprecated. Please use
-    .loc for label based indexing or
-    .iloc for positional indexing
-    
-    See the documentation here:
-    http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-
-
     Progress: 100.0% ... Training loss: 0.057 ... Validation loss: 0.136
 
 
@@ -610,7 +598,6 @@ dates = dates.apply(lambda d: d.strftime('%b %d'))
 ax.set_xticks(np.arange(len(dates))[12::24])
 _ = ax.set_xticklabels(dates[12::24], rotation=45)
 ```
-      # Remove the CWD from sys.path while we load stuff.
 
 
 
